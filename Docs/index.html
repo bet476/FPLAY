@@ -8,12 +8,12 @@
 	
 <link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="fxcnf@small.css" />
 <link rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)" href="fxnf@medium.css" />
-<link rel="stylesheet" type="text/css" media="screen and (min-width: 1135px)" href="foxspnf@large.css" />
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 1135px)" href="tnespf@large.css" />
 
+<link rel="stylesheet" href="https://releases.flowplayer.org/7.2.7/skin/skin.css">	
+<script src="https://releases.flowplayer.org/7.2.7/flowplayer.min.js"></script>
+<script src="https://releases.flowplayer.org/hlsjs/flowplayer.hlsjs.min.js"></script>
 
-
-<script src="http://jwpsrv.com/library/4+R8PsscEeO69iIACooLPQ.js"></script>
-<script>jwplayer.key="gGpS+jTZmHT4xHlTSOhEsuk/Gt9I4gbAdqP1LQ54u8TX2EcxYlzoRA==";</script>
 
 
 <style>
@@ -25,9 +25,9 @@ body, html{
 }
 p { line-height: 0px; font-size: 12.7px; color: #283747; black; font-family: Yandex-UI-Icons-Private;
 }
-h { color:#0c0c0c; 0c161c; #ddd; ccc; #212F3D; #17202A; #1e1e1e; #283747; #544; rgb(0, 0, 0); font-size: 11.6px; 11.4px; 10.4px; 10.498px; 12.46px; font-family: Sitka Small; 
+h { color:#aaa; 333; 222; f00964; #000; fff; 0c0c0c; #363636; 0c161c; #ddd; ccc; #212F3D; #17202A; #1e1e1e; #283747; #544; rgb(0, 0, 0); font-size:11px; 11.4px; 10.4px; 10.498px; 12.46px; font-family: Sitka Small; 
 } 
-h2 { line-height: 3px; color:#bbb; #F85499; #C9A99A; rgb(85, 26, 139); rgb(0, 0, 0); font-size:15px; 15.5px; font-family: Sitka Small;
+h2 { line-height: 3px; color:#333; ccc; bbb; #F85499; #C9A99A; rgb(85, 26, 139); rgb(0, 0, 0); font-size:15px; 15.5px; font-family: Sitka Small;
 }
 h1 { padding: 2px; color: #333; #283747; #aaa; #151516; #3c161c; #1f1f1f; font-size:12.4px; 12.5px; 12.4px; 12.7px; 12.6px; 11px; font-family: Yandex-UI-Icons-Private; Sitka Small; Yandex-UI-Icons-Private;
 }
@@ -47,33 +47,43 @@ h1 { padding: 2px; color: #333; #283747; #aaa; #151516; #3c161c; #1f1f1f; font-s
 	<div class="header1"></div>
 	<div class="header2">&nbsp&nbsp</div>
 	<div class="content-LEFT">
+    <div id="fp-thumbnails"></div>
+    <script>
+    flowplayer("#fp-thumbnails", {
+    
+    ratio: 9/16,
+    share: false,
+	splash: false,
+	live: true,
+	muted: true,
+	autoplay: true,
+	autoBuffering: true,
+	embed: false,
+	fullscreen: true,
+    hlsQualities: true,
+	MinimalistButton: true,
+	poster: '',
+	height: 400,
+    width: 820,
 	
-   <div id='container'></div>
-   <script type="text/javascript">
-  jwplayer("container").setup({
-    playlist: [{
-      image: "",
-      file: "https://live-oiplay.online.go.oi.com.br/live-cdn/foxsports.smil/manifest.m3u8",
-      title: "HD",
-      description: ""
-	  
-      
-    }],
- 
-     width: 769,
-     height: 432,
-	
-	captions: {
-        color: '#FFF',
-        fontSize: 16,
-        backgroundOpacity: 0,
-        edgeStyle: 'raised'
-	},
+    clip: {
+        // configure thumbnails for this clip
+        thumbnails: {
+            template: "",
+            preload: true
+        },
 
-	
-     });
-</script>
-   
+        sources: [
+            { type: "application/x-mpegurl",
+              src:  "https://cdn.jsdelivr.net/gh/bet476/omega/(esbr-gtv)_index.m3u8" },
+            { type: "video/mp4",
+              src:  "" }
+        ],
+		title: ""
+		
+    }
+});
+</script>			
 </div>
 	
 	
@@ -82,42 +92,43 @@ h1 { padding: 2px; color: #333; #283747; #aaa; #151516; #3c161c; #1f1f1f; font-s
 	
 	<div class="box-right">
 	<div class="box-right-n">
-	<i><a href="file:///C:/Users/pedro/Desktop/Oi%20+%20Playplus.html" "under" style="text-decoration:none" ><h2><b><span data-reactid="65">&nbspL.S.BROADCAST</span></b></h2></i>
+	
+	<a href="C:\Users\pedro\Desktop\omega\index.html" "under" style="text-decoration:none" ><h2><b><span data-reactid="65">&nbspL.S.BROADCAST </span></b></h2></a>
 	</div>
 	</div>
 	
 	
 	<div class="box-ent-right-2">
 	
-	<a><img src="https://www.foxsports.com.br/images/logo.png?_v=1.5.96" width=65 height=34 alt=""/></a>
+	&nbsp&nbsp<a><img src="https://a.espncdn.com/watchespn/images/web/network_logos/channel_logo_brazil_2x.png" width=67 height=32 alt=""/></a>
 	</div>
 	
 	
 	<br><br>
 	<div class="box-right-2">
 	<div class="n-head"></div>
-	<h><b>ACOMPANHE AO VIVO OS CANAIS FOX </b></h>
+	<h><b>&nbspACOMPANHE AO VIVO OS CANAIS (espn watch) </b></h><a>
 	</div>
 	
 	<div class="box-right-3">
+	<div class="n-head-2"></div>
 	<br><BR>
 	<DIV CLASS="LOGOFOX">
-	<b><a href="C:\Users\pedro\Desktop\omega\fox.html" "under" style="text-decoration:none; color:#ccc; #4B0082; font-family:sans serif;">FOX<a/></b> &nbsp&nbsp <b><a href="C:\Users\pedro\Desktop\omega\space.html" "under" style="text-decoration:none; color:#ccc; #4B0082; font-family:sans serif;">SPACE<a/></b>
+	<b><a href="C:\Users\pedro\Desktop\omega\espn.html" "under" "under" style="text-decoration:none; color:#bbb; 222; #4B0082; font-family:sans serif;">ESPN<a/></b>
 	</DIV>
 	<br>
 	<DIV CLASS="LOGOFX">
 	
-	<b><a href="C:\Users\pedro\Desktop\omega\fx.html" "under" style="text-decoration:none; color:#ccc; #4B0082; font-family:sans serif;" >FX<a/></b> &nbsp&nbsp <b><a href="C:\Users\pedro\Desktop\omega\tnt.html" "under" style="text-decoration:none; color:#ccc; #4B0082; font-family:sans serif;">TNT<a/></b>
+	<b><a href="C:\Users\pedro\Desktop\omega\espn 2.html" "under" "under" style="text-decoration:none; color:#bbb; 222; #4B0082; font-family:sans serif;" >ESPN 2<a/></b>
 	</DIV>
 	<br>
 	<DIV CLASS="LOGOFOXPREMIUM1">
 	
-	<b><a href="C:\Users\pedro\Desktop\omega\fox premium 1.html" "under" style="text-decoration:none; color:#ccc; #4B0082; font-family: sans serif;" >FOX PREMIUM 1<a/></b>
+	<b><a href="C:\Users\pedro\Desktop\omega\espn extra.html" "under" "under" style="text-decoration:none; color:#bbb; 222; #4B0082; font-family: sans serif;" >ESPN EXTRA<a/></b>
 	</DIV>
 	<br>
 	<DIV CLASS="LOGOFOXSPORTS2">
 	
-	<b><a href="C:\Users\pedro\Desktop\omega\espn br.html" "under" style="text-decoration:none; color:#ccc; #4B0082; font-family: sans serif;">ESPN BRASIL<a/></b>
 	</DIV>
 	</div>
 	</div>
